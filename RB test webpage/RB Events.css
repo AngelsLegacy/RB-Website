@@ -1,0 +1,128 @@
+* {
+    display: border-box;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+}
+
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.banner {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;   
+}
+
+#bar_name ul {
+    background-color: rgba(0, 0, 0, 0);;
+    position: absolute;
+    list-style: none;
+    padding-top: 21px;
+    margin-top: -64px;
+    margin-bottom: -24px;
+    line-height: 32px;
+    font-size: 11px;
+    z-index: 2;
+}
+
+section h1 {
+    letter-spacing: 12px;
+    font-size: 42px;
+}
+
+section h4 {
+    margin: -20px 0 auto;
+    letter-spacing: 4px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+#selection {
+    position: relative;
+    margin: 0 0 0 -40px;
+    padding-top: 48px;
+}
+
+#selection a{
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;    
+}
+
+#selection a:hover {
+    color: #7393B3;
+    cursor: pointer;
+}
+
+a:visited{
+    color: white;
+}
+
+#Active{
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;  
+    color: #b37373;
+    cursor: pointer;
+}
+
+.Events {
+    line-height: 32px;
+    border: 1px solid #b37373;
+    margin: 64px auto;
+    width: 900px;
+}
+
+.Events h3 {
+    padding: 5px 0;
+}
+
+/*Tokyo Jazz Joints*/
+#Event1 { 
+    height: 375px;
+    width: 450px;
+    margin: 96px auto;
+    position: relative;
+}
+
+#TJJ {
+    width: 300px;
+    padding: 0 0 30px;
+    text-align: left;
+}
+
+#Buy strong{
+    margin-left: 100px;
+    line-height: 64px;
+}
+
+#Buy strong:hover {
+    color:#7393B3;
+}
+/*Sunday Service DJs*/
+#Event2 {
+    height: 400px;
+    width: 350px;
+    position: relative;
+}
+
+#SS {
+    margin: 0;
+    width: 400px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+div {
+    display: inline-block;
+    padding: 0 25px;
+}

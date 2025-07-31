@@ -1,0 +1,138 @@
+* {
+    font-family: Verdana;
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 1000px
+}
+
+.banner {
+    color: white;
+    background-color: black;
+    padding: 5px;   
+}
+
+#bar_name ul{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    list-style: none;
+    padding-top: 21px;
+    margin-top: -64px;
+    margin-bottom: -24px;
+    line-height: 32px;
+    font-size: 11px;
+    z-index: 2;
+}
+
+section h1 {
+    letter-spacing: 12px;
+    font-size: 42px;
+}
+
+section h4 {
+    margin: -20px 0 auto;
+    letter-spacing: 4px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+
+main {
+    width:900px;
+    background-image: url("Assets/RB Light.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    border: 1px solid #b37373;
+    margin: 64px auto;
+}
+
+main h2 {
+    text-decoration: underline;
+    margin: 64px 0;
+}
+
+.blurb {
+    margin: 0 auto;
+    width: 700px;
+    padding: 0 100px;
+    line-height: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+main header {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 450px;
+    height: 100px;
+    padding: 0 0 152px 0;
+    line-height: 50px;
+    margin-bottom: 64px;
+    border: 2px solid #aa6c39;
+}
+
+p strong:hover {
+    color: #7393B3
+}
+
+p a {
+    text-decoration: none;
+}
+
+#selection {
+    position: relative;
+    margin: 0 0 0 -40px;
+    padding-top: 48px;
+}
+
+#selection a{
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;    
+}
+
+#selection a:hover {
+    color: #7393B3;
+    cursor: pointer;
+}
+
+a:visited{
+    color: white;
+}
+
+#Active{
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;  
+    color: #b37373;
+    cursor: pointer;
+}
+
+table {
+    padding: 8px;
+    margin: 32px auto;
+    border: 2px solid #b37373;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+th {
+    text-decoration: underline 2px #b37373;
+}
+
+/* Colours
+  #b37373
+  #7393B3
+  #920000
+*/
