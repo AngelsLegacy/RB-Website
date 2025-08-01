@@ -29,6 +29,10 @@ body::before {
     margin-top: -8px;
 }
 
+#bar_name {
+     user-select: none;
+}
+
 #bar_name ul {
     background-color: rgba(0, 0, 0, 0);;
     position: absolute;

@@ -7,7 +7,6 @@ body {
     background-color: black;
     text-align: center;
     margin: 0 auto;
-    width: 1300px;
 }
 
 body::before {
@@ -44,7 +43,11 @@ a:visited{
 .menu img{
     height: 900px;
     width: 300px;
-    padding: 18px 150px 64px;
+    padding: 18px 146px 64px;
+}
+
+#bar_name {
+     user-select: none;
 }
 
 #bar_name ul {
@@ -73,7 +76,7 @@ a:visited{
     text-decoration: none;  
 }
 
-#selection a:hover {
+#selection .tab :hover {
     color: #7393B3;
     cursor: pointer;
 }

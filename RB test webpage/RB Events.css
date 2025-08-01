@@ -30,6 +30,10 @@ body::before {
     margin: 0 auto;   
 }
 
+#bar_name {
+     user-select: none;
+}
+
 #bar_name ul {
     background-color: rgba(0, 0, 0, 0);;
     position: absolute;
@@ -71,7 +75,7 @@ section a {
     list-style: none;    
 }
 
-#selection a:hover {
+#selection .tab :hover {
     color: #7393B3;
     cursor: pointer;
 }
@@ -90,54 +94,54 @@ a:visited{
 }
 
 .Events {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     line-height: 32px;
+    width: 900px;
+    height: 1000px;
     border: 1px solid #b37373;
     margin: 18px auto;
-    width: 900px;
 }
 
-.Events h3 {
-    padding: 5px 0;
+.Events article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
-/*Tokyo Jazz Joints*/
-#Event1 { 
-    height: 375px;
-    width: 450px;
-    margin: 96px auto;
-    position: relative;
+#Events img{ 
+    grid-row: auto;
+    height: 450;
+    width: 450;
+}
+
+#Event1 img{
+    height:500px;
+    width:450px;
+    
+}
+
+#Event2 img{
+    height:500px;
+    width:450px;
+    margin: -10px;
+}
+
+article h3 {
+    margin: 0 auto 48px;
 }
 
 #TJJ {
-    width: 300px;
-    padding: 0 0 30px;
     text-align: left;
+    margin: auto 30px;
 }
 
-#Buy strong{
-    margin-left: 100px;
-    line-height: 64px;
-}
-
-#Buy strong:hover {
-    color:#7393B3;
-}
-/*Sunday Service DJs*/
-#Event2 {
-    height: 400px;
-    width: 350px;
-    position: relative;
+strong{
+    padding-left: 150px;
 }
 
 #SS {
-    margin: 0;
-    width: 400px;
     text-align: right;
-    padding-top: 5px;
-}
-
-div {
-    display: inline-block;
-    padding: 0 25px;
+    margin: auto 30px;
 }

@@ -29,6 +29,10 @@ body::before {
     padding: 5px;   
 }
 
+#bar_name {
+     user-select: none;
+}
+
 #bar_name ul{
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
@@ -60,6 +64,7 @@ section a {
 
 main {
     width:900px;
+    height: 1000px;
     background-image: url("Assets/RB Light.jpg");
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
@@ -79,7 +84,7 @@ main h2 {
     margin: 0 auto;
     width: 700px;
     padding: 0 100px;
-    line-height: 32px;
+    line-height: 48px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 main header {
@@ -114,7 +119,7 @@ p a {
     list-style: none;    
 }
 
-#selection a:hover {
+#selection .tab :hover {
     color: #7393B3;
     cursor: pointer;
 }
@@ -133,8 +138,7 @@ a:visited{
 }
 
 table {
-    padding: 8px;
-    margin: 32px auto;
+    margin: 48px auto;
     border: 2px solid #b37373;
     line-height: 30px;
     font-weight: bold;
