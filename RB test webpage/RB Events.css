@@ -1,15 +1,27 @@
 * {
     display: border-box;
-    background-color: black;
     color: white;
     font-family: Verdana;
 }
 
 
 body {
+    background-color: black;
     text-align: center;
     margin: 0 auto;
-    width: 1000px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("Assets/Rattlebag Logo White.png") repeat top/300px;
+    opacity: 0.05; /* change this to control how faint the PNG is */
+    pointer-events: none; /* don’t block clicks */
+   z-index: -1;  /*keeps it behind everything */
 }
 
 .banner {
@@ -21,6 +33,8 @@ body {
 #bar_name ul {
     background-color: rgba(0, 0, 0, 0);;
     position: absolute;
+    top: 100px;
+    left: 15px;
     list-style: none;
     padding-top: 21px;
     margin-top: -64px;
@@ -76,9 +90,10 @@ a:visited{
 }
 
 .Events {
+    background-color: black;
     line-height: 32px;
     border: 1px solid #b37373;
-    margin: 64px auto;
+    margin: 18px auto;
     width: 900px;
 }
 
