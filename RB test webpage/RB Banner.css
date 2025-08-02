@@ -1,0 +1,80 @@
+/*Banner Global Values*/
+* {
+    color: white;
+    font-family: Verdana;
+}
+
+.banner {
+    padding: 5px;
+    margin: 0 auto;   
+}
+
+#bar_name {
+     user-select: none;
+}
+
+#bar_name h1 {
+    letter-spacing: 12px;
+    font-size: 42px;
+}
+
+#bar_name h4 {
+    margin-top: -20px;
+    letter-spacing: 4px;
+}
+
+
+#bar_name ul {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 121px;
+    left: 15px;
+    list-style: none;
+    margin: -64px 0 -24px 0;
+    line-height: 32px;
+    font-size: 11px;
+    z-index: 2;
+}
+
+section a {
+    text-decoration: none;
+}
+
+#selection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#selection li{
+    width: 150px;
+    padding-top: 20px;
+    display: inline-block; 
+}
+
+#selection .tab :hover {
+    color: #7393B3;
+    cursor: pointer;
+}
+
+#selection #Active{
+    width: 150px;
+    display: inline-block;
+    color: #b37373;
+    cursor: pointer;
+}
+
+#selection a:visited{
+    color: white;
+}
+
+/* Colours
+  #b37373
+  #7393B3
+  #920000
+*/
