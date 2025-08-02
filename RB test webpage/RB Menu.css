@@ -22,8 +22,7 @@ body::before {
     grid-template-columns: 300px 300px 300px; /* 3 equal sections */
     width: 900px;
     height: 1000px;
-    margin: 48px auto;
-    padding-left: 16px;
+    margin: 100px auto 0;
 }
 
 .menu #img1 {

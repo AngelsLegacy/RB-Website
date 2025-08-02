@@ -4,11 +4,6 @@
     font-family: Verdana;
 }
 
-/*.banner {
-    padding: 5px;
-    margin: 0 auto;   
-}*/
-
 #bar_name {
      user-select: none;
 }
@@ -22,7 +17,6 @@
     margin-top: -20px;
     letter-spacing: 4px;
 }
-
 
 #bar_name ul {
     background-color: rgba(0, 0, 0, 0);
@@ -41,20 +35,22 @@ section a {
 }
 
 #selection ul {
-    margin: 0;
+    display: flex;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
     text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 0;
+    width: 900px;
+    text-decoration: none; 
 }
 
 #selection li{
-    width: 150px;
-    padding-top: 20px;
-    display: inline-block; 
+    flex: 1;
+    padding-top: 24px; 
+    font-size: 28px;
+    font-weight: bold;
+    box-sizing: border-box;
 }
 
 #selection .tab :hover {
@@ -63,8 +59,6 @@ section a {
 }
 
 #selection #Active{
-    width: 150px;
-    display: inline-block;
     color: #b37373;
     cursor: pointer;
 }
