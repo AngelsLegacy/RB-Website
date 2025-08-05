@@ -45,6 +45,8 @@ h4 {
     display: inline-block;
 }
 
+
+/*Code snippet partially from stackoverflow, then edited*/
 .overlay {
     position: absolute;
     bottom: 0;
