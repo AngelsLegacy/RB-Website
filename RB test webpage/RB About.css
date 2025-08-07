@@ -36,6 +36,7 @@ main h2 {
 }
 
 .blurb {
+    text-align: left;
     margin: 0 auto;
     width: 700px;
     padding: 0 100px;
